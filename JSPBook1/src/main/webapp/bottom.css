@@ -1,0 +1,7 @@
+@charset "EUC-KR";
+
+.container_bottom {
+	display: grid;
+	place-items: center;
+	height: 70vh;
+}

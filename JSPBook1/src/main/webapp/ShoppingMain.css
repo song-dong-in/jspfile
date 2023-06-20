@@ -1,0 +1,20 @@
+@charset "EUC-KR";
+
+hr1 {
+	width: 50%;
+	height: 120px;
+	background-color: white;
+	border: 0;
+}
+
+.no_outline_btn {
+	background-color: white;
+	border: none;
+	padding: 1px 30px;
+}
+
+.container_bottom {
+	display: grid;
+	place-items: center;
+	height: 70vh;
+}

@@ -1,0 +1,17 @@
+@charset "EUC-KR";
+
+.container_p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+}
+
+.row {
+  text-align: center;
+}
+
+.col-md-6 {
+  display: inline-block;
+  text-align: center;
+}
