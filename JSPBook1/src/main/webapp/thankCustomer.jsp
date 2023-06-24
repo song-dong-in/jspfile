@@ -24,8 +24,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-<link rel="stylesheet" href="/css/bootstrap.min.css" />
-<title>주문 완료</title>
+<link rel="stylesheet"
+	href="http://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">   
+	 <title>주문 완료</title>
 </head>
 <body>
 

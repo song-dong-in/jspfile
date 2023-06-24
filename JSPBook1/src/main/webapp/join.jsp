@@ -3,6 +3,8 @@
 <!DOCTYPE html>
 <html>
 <head>
+<link rel="stylesheet" href="style_join.css">
+
 <meta charset="EUC-KR">
 <title>Insert title here</title>
 </head>

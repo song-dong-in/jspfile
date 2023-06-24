@@ -29,6 +29,7 @@
 
 					<li class="nav-item"><a class="nav-link" href="cart.jsp">장바구니</a></li>
 					<li class="nav-item"><a class="nav-link" href="#">마이페이지</a></li>
+					<li class="nav-item"><a class="nav-link" href="admin_login.jsp">관리자</a></li>
 
 
 				</ul>

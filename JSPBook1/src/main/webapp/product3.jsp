@@ -45,6 +45,8 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6">
+			
+				<img src="bottom3.PNG">
 				<h2><%=product.getPname()%></h2>
 				<p><%=product.getDescription()%>
 				<h4><%=product.getUnitPrice()%>원

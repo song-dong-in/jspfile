@@ -10,7 +10,7 @@
 	// 아이디가 없으면
 	if(id == null || id.trim().equals("")){
 		// product.jsp로 되돌아간다.
-		response.sendRedirect("product.jsp");
+		response.sendRedirect("product1.jsp");
 		// 프로그램 종료
 		return;
 	}
@@ -62,5 +62,5 @@
 		cart.add(product);
 	}
 
-	response.sendRedirect("product.jsp?id=" + id);
+	response.sendRedirect("product1.jsp?id=" + id);
 %>

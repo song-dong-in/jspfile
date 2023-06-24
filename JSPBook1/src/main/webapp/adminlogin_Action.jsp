@@ -27,7 +27,7 @@
         	PrintWriter script = response.getWriter();
         	script.println("<script>");
         	script.println("alert('로그인 성공')");
-        	script.println("location.href = 'ShoppingMain.jsp'");
+        	script.println("location.href = 'bottom2.jsp'");
         	script.println("</script>");
         } else if(result == 0) {
         	PrintWriter script = response.getWriter();

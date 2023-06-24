@@ -28,7 +28,8 @@
 	<nav class="navbar navbar-expand-lg bg-body-tertiary">
 		<div class="container-fluid">
 			<ul class="navbar-nav me-auto mb-2 mb-lg-0">
-				<li class="nav-item"><a class="nav-link" href="login.jsp">로그인</a></li>
+			
+						<li class="nav-item"><a class="nav-link" href="login.jsp">로그인</a></li>
 			</ul>
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -36,7 +37,7 @@
 
 					<li class="nav-item"><a class="nav-link" href="cart.jsp">장바구니</a></li>
 					<li class="nav-item"><a class="nav-link" href="#">마이페이지</a></li>
-
+					<li class="nav-item"><a class="nav-link" href="admin_login.jsp">관리자</a></li>
 
 				</ul>
 				<form class="d-flex" role="search">
@@ -131,7 +132,7 @@
 					<div class="card-body">
 						<h5 class="card-title">논페이드 와이드 데님 슬랙스</h5>
 						<p class="card-text">캐쥬얼하게 드레스업 하기에 좋은 특별한 아이템 <br><br> 47,900원</p>
-						<a href="./product.jsp?id=<%=phone.getProductId() %>"  class="btn btn-primary">Go somewhere</a>
+						<a href="./product1.jsp?id=<%=phone.getProductId() %>"  class="btn btn-primary">Go somewhere</a>
 					</div>
 				</div>
 			</div>
@@ -143,7 +144,7 @@
 					<div class="card-body">
 						<h5 class="card-title">302 쿨 린넨 와이드 데님</h5>
 						<p class="card-text">편하고 시원한 린넨 데님! 여름 필수품~<br><br><br> 42,900원</p>
-						<a href="./product.jsp?id=<%=notebook.getProductId() %>" class="btn btn-primary">Go somewhere</a>
+						<a href="./product2.jsp?id=<%=notebook.getProductId() %>" class="btn btn-primary">Go somewhere</a>
 					</div>
 				</div>
 			</div>
@@ -153,7 +154,7 @@
 					<div class="card-body">
 						<h5 class="card-title">수피마 세미와이드 쭈리 팬츠</h5>
 						<p class="card-text">트레이닝팬츠지만 수피마 고급 면소재로 제작해 퀄리티를 높였어요<br><br>44,900원</p>
-						<a href="./product.jsp?id=<%=tablet.getProductId() %>" class="btn btn-primary">Go somewhere</a>
+						<a href="./product3.jsp?id=<%=tablet.getProductId() %>" class="btn btn-primary">Go somewhere</a>
 					</div>
 				</div>
 			</div>
